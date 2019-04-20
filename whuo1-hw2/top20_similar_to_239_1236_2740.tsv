@@ -1,0 +1,61 @@
+query_id	term	stem	removestop	sim	termweights	rank	doc_id	title
+239	tfidf	True	True	cosine	3,3,4,1	1	1031	a note on starting the newton-raphson method
+239	tfidf	True	True	cosine	3,3,4,1	2	2962	production and employment of ph.d. 's in computer science-1976
+239	tfidf	True	True	cosine	3,3,4,1	3	2158	a stopping criterion for the newton-raphson method in implicit multistep integration algorithms for nonlinear systems of ordinary differential equations
+239	tfidf	True	True	cosine	3,3,4,1	4	3165	approximation of polygonal maps by cellular maps
+239	tfidf	True	True	cosine	3,3,4,1	5	3166	computing standard deviations : accuracy
+239	tfidf	True	True	cosine	3,3,4,1	6	3009	insertions and deletions in one-sided height-balanced trees
+239	tfidf	True	True	cosine	3,3,4,1	7	3131	focus microcomputer number system
+239	tfidf	True	True	cosine	3,3,4,1	8	1327	use of decision tables in computer programming
+239	tfidf	True	True	cosine	3,3,4,1	9	1206	the self-judgment method of curve fitting
+239	tfidf	True	True	cosine	3,3,4,1	10	1455	trac , a procedure-describing language for the reactive typewriter
+239	tfidf	True	True	cosine	3,3,4,1	11	890	selected definitions
+239	tfidf	True	True	cosine	3,3,4,1	12	650	curve fitting with constraints ( algorithm 74 )
+239	tfidf	True	True	cosine	3,3,4,1	13	1697	graphical input/output of nonstandard characters
+239	tfidf	True	True	cosine	3,3,4,1	14	2276	computer methods for sampling from the exponential and normal distributions
+239	tfidf	True	True	cosine	3,3,4,1	15	2514	an array grammar programming system
+239	tfidf	True	True	cosine	3,3,4,1	16	634	manipulation of trees in information retrieval*
+239	tfidf	True	True	cosine	3,3,4,1	17	2343	a proposal to establish a pseudo virtual memory via writable overlays
+239	tfidf	True	True	cosine	3,3,4,1	18	274	dynamic storage allocation in the atlas computer , including an automatic use of a backing store
+239	tfidf	True	True	cosine	3,3,4,1	19	1679	a fast fourier transform algorithm for real-valued series
+239	tfidf	True	True	cosine	3,3,4,1	20	1925	concepts of use in contour map processing
+1236	tfidf	True	True	cosine	3,3,4,1	1	2709	a genealogy of control structures
+1236	tfidf	True	True	cosine	3,3,4,1	2	1455	trac , a procedure-describing language for the reactive typewriter
+1236	tfidf	True	True	cosine	3,3,4,1	3	2305	the `` plankalkul '' of konrad zuse : a forerunner of today 's programming languages
+1236	tfidf	True	True	cosine	3,3,4,1	4	1697	graphical input/output of nonstandard characters
+1236	tfidf	True	True	cosine	3,3,4,1	5	2080	the nucleus of a multiprogramming system
+1236	tfidf	True	True	cosine	3,3,4,1	6	2573	computer programming as an art
+1236	tfidf	True	True	cosine	3,3,4,1	7	2987	representation of many-sided polygons and polygonal lines for rapid processing
+1236	tfidf	True	True	cosine	3,3,4,1	8	1679	a fast fourier transform algorithm for real-valued series
+1236	tfidf	True	True	cosine	3,3,4,1	9	1031	a note on starting the newton-raphson method
+1236	tfidf	True	True	cosine	3,3,4,1	10	3131	focus microcomputer number system
+1236	tfidf	True	True	cosine	3,3,4,1	11	633	simulation and analysis of biochemical systems ( iii . analysis and pattern recognition )
+1236	tfidf	True	True	cosine	3,3,4,1	12	3009	insertions and deletions in one-sided height-balanced trees
+1236	tfidf	True	True	cosine	3,3,4,1	13	2291	localization of the roots of a polynomial [ c2 ] ( algorithm a429 )
+1236	tfidf	True	True	cosine	3,3,4,1	14	918	cobol
+1236	tfidf	True	True	cosine	3,3,4,1	15	1487	eliza-a computer program for the study ofnatural language communication between man and machine
+1236	tfidf	True	True	cosine	3,3,4,1	16	890	selected definitions
+1236	tfidf	True	True	cosine	3,3,4,1	17	1534	dad , the c.s.i.r.o . operating system
+1236	tfidf	True	True	cosine	3,3,4,1	18	3132	experiments with some algorithms that find central solutions for pattern classification
+1236	tfidf	True	True	cosine	3,3,4,1	19	2155	toward an understanding of data structures
+1236	tfidf	True	True	cosine	3,3,4,1	20	1933	coding the lehmer pseudo-random number generator
+2740	tfidf	True	True	cosine	3,3,4,1	1	1747	three criteria for designing computing systems to facilitate debugging
+2740	tfidf	True	True	cosine	3,3,4,1	2	2377	a hardware architecture for implementing protection rings
+2740	tfidf	True	True	cosine	3,3,4,1	3	2595	a note on the calculation working set size
+2740	tfidf	True	True	cosine	3,3,4,1	4	3040	synthesizing constraint expressions
+2740	tfidf	True	True	cosine	3,3,4,1	5	2698	syntax-directed least-errors analysis for context-free languages : a practical approach
+2740	tfidf	True	True	cosine	3,3,4,1	6	2374	a study of storage partitioning using a mathematical model of locality
+2740	tfidf	True	True	cosine	3,3,4,1	7	2616	on the conversion of programs to decision tables : method and objectives
+2740	tfidf	True	True	cosine	3,3,4,1	8	2863	vmin-an optimal variable-space page replacement algorithm
+2740	tfidf	True	True	cosine	3,3,4,1	9	2498	minimizing wasted space in partitioned segmentation
+2740	tfidf	True	True	cosine	3,3,4,1	10	2226	further evidence for the analysis of algorithms for the zero-one programming problem
+2740	tfidf	True	True	cosine	3,3,4,1	11	2917	sitar : an interactive text processing system for small computers ( corrigendum )
+2740	tfidf	True	True	cosine	3,3,4,1	12	2278	on foster 's information storage and retrieval using avl trees
+2740	tfidf	True	True	cosine	3,3,4,1	13	3125	global optimization by suppression of partial redundancies
+2740	tfidf	True	True	cosine	3,3,4,1	14	2480	teaching `` about programming ''
+2740	tfidf	True	True	cosine	3,3,4,1	15	2078	representations for space planning
+2740	tfidf	True	True	cosine	3,3,4,1	16	2318	the role of computer system models in performance evaluation
+2740	tfidf	True	True	cosine	3,3,4,1	17	1609	scheduling university course examinations by computer
+2740	tfidf	True	True	cosine	3,3,4,1	18	2862	analysis of the pff replacement algorithm via a semi-markov model
+2740	tfidf	True	True	cosine	3,3,4,1	19	2736	a note on hash linking
+2740	tfidf	True	True	cosine	3,3,4,1	20	2721	the digital simulation of river plankton population dynamics

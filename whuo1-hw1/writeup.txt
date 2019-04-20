@@ -1,0 +1,104 @@
+hw1a:
+In this case, I tried several classification algorithms including logistic regression, decision tree, support vector machine. The performance of SVM is comparable to logistic regression, indicating a clear decision boundary between classes.
+
+As for the feature engineering, I took advantage of abbrevs, sentence_internal, timeterms, titles, unlikely_proper_nouns, part-of-speech histogram, etc. It is important to normailze the feature vectors before training and predicting.
+
+For development, I randomly separate the dataset into training dataset (80%) and development dataset (20%).
+The performance of SVM is as following:
+precision    recall  f1-score   support
+
+         EOS       0.97      0.99      0.98      8183
+        NEOS       0.92      0.71      0.80       817
+
+   micro avg       0.97      0.97      0.97      9000
+   macro avg       0.95      0.85      0.89      9000
+weighted avg       0.97      0.97      0.97      9000
+
+The performance of logistic regression is:
+precision    recall  f1-score   support
+
+         EOS       0.97      0.99      0.98      8144
+        NEOS       0.90      0.73      0.80       856
+
+   micro avg       0.97      0.97      0.97      9000
+   macro avg       0.94      0.86      0.89      9000
+weighted avg       0.97      0.97      0.96      9000
+
+The decision tree algorithm works perfect on training dataset but is not taken because it has serious problem of overfitting.
+
+
+
+hw1b:
+The case in this scenario is not quite different from the last one except that it is a multilabel classification, still, I tried both SVM and logistic regression. The performance of SVM is still comparable to logistic regression, indicating a clear decision boundary between classes.
+
+For the feature engineering, I used different regex to identify segments. The details is described in the script. It is important to normailze the feature vectors before training and predicting.
+
+For development, I randomly separate the dataset into training dataset (80%) and development dataset (20%).
+The performance of SVM is as following:
+(1) segment
+precision    recall  f1-score   support
+
+     ADDRESS       1.00      1.00      1.00         2
+     GRAPHIC       0.00      0.00      0.00         2
+       HEADL       0.33      0.50      0.40         2
+      NNHEAD       1.00      1.00      1.00        30
+       PTEXT       0.93      1.00      0.96        41
+      QUOTED       1.00      0.97      0.98        31
+         SIG       1.00      0.69      0.82        13
+       TABLE       0.57      1.00      0.73         4
+
+   micro avg       0.94      0.94      0.94       125
+   macro avg       0.73      0.77      0.74       125
+weighted avg       0.94      0.94      0.93       125
+(2) line
+precision    recall  f1-score   support
+
+     ADDRESS       0.20      0.20      0.20        10
+     GRAPHIC       0.56      0.62      0.59         8
+       HEADL       0.47      0.53      0.50        17
+        ITEM       0.68      0.65      0.67        26
+      NNHEAD       0.97      0.98      0.97       321
+       PTEXT       0.92      0.96      0.94       438
+      QUOTED       0.99      0.96      0.97       162
+         SIG       0.71      0.35      0.47        48
+       TABLE       0.87      0.91      0.89       149
+
+   micro avg       0.91      0.91      0.91      1179
+   macro avg       0.71      0.69      0.69      1179
+weighted avg       0.91      0.91      0.91      1179
+
+The performance of logistic regression is:
+(1) segment
+precision    recall  f1-score   support
+
+     ADDRESS       1.00      1.00      1.00         2
+     GRAPHIC       0.00      0.00      0.00         2
+       HEADL       0.40      1.00      0.57         2
+        ITEM       1.00      0.75      0.86         4
+      NNHEAD       1.00      1.00      1.00        20
+       PTEXT       0.90      0.97      0.94        38
+      QUOTED       1.00      0.90      0.95        41
+         SIG       0.90      1.00      0.95         9
+       TABLE       0.86      0.86      0.86         7
+
+   micro avg       0.93      0.93      0.93       125
+   macro avg       0.78      0.83      0.79       125
+weighted avg       0.93      0.93      0.92       125
+
+(2) line
+precision    recall  f1-score   support
+
+     ADDRESS       0.67      0.60      0.63        10
+     GRAPHIC       1.00      0.30      0.46        10
+       HEADL       0.69      0.50      0.58        18
+        ITEM       0.66      0.58      0.61        33
+      NNHEAD       0.96      0.92      0.94       329
+       PTEXT       0.87      0.95      0.90       412
+      QUOTED       1.00      0.98      0.99       171
+         SIG       0.52      0.33      0.41        39
+       TABLE       0.82      0.88      0.85       157
+
+   micro avg       0.89      0.89      0.89      1179
+   macro avg       0.80      0.67      0.71      1179
+weighted avg       0.89      0.89      0.88      1179
+
