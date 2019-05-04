@@ -27,23 +27,26 @@ class AmazonCrawler:
         soup = BeautifulSoup(html, 'html.parser')
         product_list = list()
         for div in soup.find_all('div', class_='s-result-item'):
-            product_aTag = div.find('h5').find('a', class_='a-link-normal')
-            if product_aTag is None:
-                continue
-            product_imgSrc = div.find('img').get('src')
+            try:
+                product_aTag = div.find('h2').find('a', class_='a-link-normal')
+                if product_aTag is None:
+                    continue
+                product_imgSrc = div.find('img').get('src')
 
-            product_name = product_aTag.find('span').get_text()
-            product_link = urljoin('http://www.amazon.com', product_aTag.get('href'))
+                product_name = product_aTag.find('span').get_text()
+                product_link = urljoin('http://www.amazon.com', product_aTag.get('href'))
 
-            product_price_whole = div.find('span', class_='a-price-whole')
-            if product_price_whole is None:
-                continue
-            product_price_fractional = div.find('span', class_='a-price-fraction')
-            if product_price_fractional is None:
-                continue
+                product_price_whole = div.find('span', class_='a-price-whole')
+                if product_price_whole is None:
+                    continue
+                product_price_fractional = div.find('span', class_='a-price-fraction')
+                if product_price_fractional is None:
+                    continue
 
-            product_price = float(product_price_whole.get_text()+product_price_fractional.get_text())
-            product_list.append((product_imgSrc, product_name, product_link, product_price, 'Amazon'))
+                product_price = float(product_price_whole.get_text()+product_price_fractional.get_text())
+                product_list.append((product_imgSrc, product_name, product_link, product_price, 'Amazon'))
+            except:
+                continue
         return product_list
 
 
